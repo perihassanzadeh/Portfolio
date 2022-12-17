@@ -11,6 +11,8 @@ import {
 import {
   SiArduino,
   SiDocker,
+  SiOpencv,
+  SiAltiumdesigner,
 } from "react-icons/si";
 import{
   FaAws,
@@ -26,10 +28,10 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiOpencv />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiAltiumdesigner />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -44,7 +46,7 @@ function Techstack() {
         <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <DiJava />
       </Col>
     </Row>
   );

@@ -18,26 +18,26 @@ function Home2() {
               ALLOW ME TO <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I have a strong passion for technology, space and innovation!
+              I have a strong passion for technology, robotics and innovation!
               <br />
               <br />I am most comfortable programming with
               <i>
-                <b className="purple"> C++, Python and Java. </b>
+                <b className="purple"> C++ and Python. </b>
               </i>
               <br />
               <br />
               My experience is primarily in &nbsp;
               <i>
-                <b className="purple">Backend Development </b> and
+                <b className="purple">Backend Development </b>
                 but my interests also include{" "}
                 <b className="purple">
-                  High Performance Computing and Embedded Processors.
+                  Computer Vision, HPC and Embedded Systems.
                 </b>
               </i>
               <br />
               <br />
               When I'm not at work or school, I like to 
-              <b className="purple"> expand my knowledge </b> by trying new things! 
+              <b className="purple"> read books </b> and <b className="purple"> stay active! </b> 
               <br />
               <br />
               Some new technologies I've been exposed to are
