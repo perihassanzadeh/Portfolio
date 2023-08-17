@@ -17,6 +17,9 @@ import {
 import{
   FaAws,
 } from "react-icons/fa"
+import{
+  CgAtlasian,
+} from "react-icons/cg"
 
 function Techstack() {
   return (
@@ -43,7 +46,7 @@ function Techstack() {
         <SiArduino />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaAws />
+        <CgAtlasian />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />

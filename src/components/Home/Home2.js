@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/memoji.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -20,45 +20,41 @@ function Home2() {
             <p className="home-about-body">
               I have a strong passion for technology, robotics and innovation!
               <br />
-              <br />I am most comfortable programming with
+              <br />I am most comfortable programming in 
               <i>
                 <b className="purple"> C++ and Python. </b>
               </i>
               <br />
               <br />
-              My experience is primarily in &nbsp;
+              My fields of Interest are &nbsp;
               <i>
-                <b className="purple">Backend Development </b>
-                but my interests also include{" "}
+                <b className="purple">Space Technology </b> and
+                areas related to{" "}
                 <b className="purple">
-                  Computer Vision, HPC and Embedded Systems.
+                  Embedded Systems.
                 </b>
               </i>
               <br />
               <br />
-              When I'm not at work or school, I like to 
-              <b className="purple"> read books </b> and <b className="purple"> stay active! </b> 
-              <br />
-              <br />
-              Some new technologies I've been exposed to are
-                <b className="purple"> AWS</b> and
+              When I'm not at work or school, I like to work on 
+                <b className="purple"> Formula SAE Projects</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Frontend Libraries and Frameworks
+                  stay active
                 </b>
               </i>
-              &nbsp; such as
+              &nbsp; as well as
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> read books!</b>
               </i>
             </p>
           </Col>
- {/*          <Col md={4} className="myAvtar">
-            <Tilt> 
+          <Col md={3} className="myAvtar">
+            <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
-          </Col> */}
+          </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

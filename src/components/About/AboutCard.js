@@ -8,13 +8,16 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "center" }}>
-            I'm <span className="purple">Peri Hassanzadeh </span> and I'm
+          <p style={{ textAlign: "justify" }}>
+            I am <span className="purple">Peri Hassanzadeh </span>
             from <span className="purple"> Pittsburgh, Pennsylvania.</span>
-            <br />I am a senior computer engineering student at the University of Pittsburgh.
+            <br /> I am a first year graduate student at the University of Pittsburgh
+            studying Electrical and Computer Engineering.
+            <br />
+            Currently, I am an engineering intern at Northrp Grumman!
             <br />
             <br />
-            Apart from coding, I also enjoy...
+            Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
@@ -31,10 +34,10 @@ function AboutCard() {
             </li>
           </ul>
 
-{/*           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "The greater the difficulty, the more the glory in surmounting it."{" "}
           </p>
-          <footer className="blockquote-footer">Peri Hassanzadeh</footer> */}
+          <footer className="blockquote-footer">Epicurus</footer>
         </blockquote>
       </Card.Body>
     </Card>

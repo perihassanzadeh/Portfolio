@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-//import laptopImg from "../../Assets/about.png";
+import beach from "../../Assets/beach.jpg";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -22,17 +22,17 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Who is <strong className="purple">Peri</strong> ?
+              Who is <strong className="purple">PERI</strong> ?
             </h1>
             <Aboutcard />
           </Col>
-          {/*---- Just in case you want to add the picture on About page <Col 
+          <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col> */}
+            <img src={beach} alt="about" className="img-fluid" />
+          </Col>
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
