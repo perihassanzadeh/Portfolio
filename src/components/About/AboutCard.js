@@ -14,7 +14,7 @@ function AboutCard() {
             <br /> I am a first year graduate student at the University of Pittsburgh
             studying Electrical and Computer Engineering.
             <br />
-            Currently, I am an engineering intern at Northrp Grumman!
+            Currently, I am an engineering intern at SpaceX!
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
